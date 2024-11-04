@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.content {
+    border: 1px solid rgb(54, 46, 46);
+    padding: 3px;
+    width: 50vw;
+    height: auto;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 350px;
+    outline: none;
+    box-shadow: 2px 2px 3px 3px rgb(150, 5, 5);
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(232, 224, 224);
+    padding: 40px;
+    color: rgba(6, 6, 6, 0.989);
+    font-family: 'Georgia';
+}
+
+.container-1 {
+    border: 3px;
+    padding: 15px;
+    display: grid;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(10, 10, 10);
+    background-color: #c4b6b6;
+
+}
+
+input {
+    height: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+
+}
+
+span {
+    color: red;
+}
+
+input:hover {
+    background-color: rgb(215, 235, 251);
+    transform: scaleY(1.0);
+    border: none;
+    outline-color: rgb(10, 7, 204);
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e1e5cb;
+}
+
+.container-2>button {
+    padding: 15px;
+    border-radius: 3px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.container-2>button#signIn {
+    font-size: 15px;
+    background-color: blue;
+    width: 15em;
+    color: white;
+
+}
+
+.container-2>button#signUp {
+    background-color: black;
+    color: white;
+    width: 15em;
+}

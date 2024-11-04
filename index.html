@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms in JS</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="content">
+    <div class="forms">
+      <h1>Sign in or Register to Create Your Account</h1>
+      <form id="formValidate">
+        <div class="container-1">
+          <label for="username">USERNAME</label>
+          <input type="text" id="userName" placeholder="Type Your Username here">
+          <span id="userNameError"></span>
+
+          <label for=emailId>EMAIL ID</label>
+          <input type="text" id="emailId" placeholder="Type Your Email here">
+          <span id="emailError"></span>
+
+          <label for=password>PASSWORD</label>
+          <input type="password" id="passwword" placeholder="Type Your Password here">
+          <span id="passError"></span>
+
+          <label for="Confirmity">CONFIRM PASSWORD</label>
+          <input type="password" id="confirmPassword" placeholder="Confirm password again">
+          <span id="cPasswordError"></span>
+
+
+          <button> Submit </button>
+        </div>
+      </form>
+      <div class="container-2">
+        <button type="button" id="signIn">Sign In</button>
+        <button type="button" id="signUp">Sign up with LinkedIn</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
